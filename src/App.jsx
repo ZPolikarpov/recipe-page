@@ -3,7 +3,7 @@ function App() {
 		<>
 			<header>
 				<div className="container bg-neutral-000">
-					<img src="/src/assets/image-omelette.jpeg" alt="An image of an omelette filled with greens and vegetables" />
+					<img src="./image-omelette.jpeg" alt="An image of an omelette filled with greens and vegetables" />
 				</div>
 			</header>
 
