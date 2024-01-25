@@ -1,0 +1,17 @@
+@use "../abstracts/" as *;
+
+.decoration {
+  &[data-decoration="top"] {
+    padding-block-start: $size-8;
+    &::before {
+      content: "";
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 1px;
+      top: calc(0px - #{$size-8});
+      background-color: $color-neutral-300;
+      color: $color-neutral-300;
+    }
+  }
+}

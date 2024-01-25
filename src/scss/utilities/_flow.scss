@@ -1,3 +1,7 @@
 .flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, 1rem);
+  margin-top: var(--flow-spacer, 2rem);
+
+  .container & {
+    margin-top: var(--flow-spacer, 1rem);
+  }
 }

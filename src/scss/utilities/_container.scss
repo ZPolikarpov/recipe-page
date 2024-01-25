@@ -4,8 +4,37 @@
   --padding: #{$container-min-margin-inline} * 2;
   --max-width: #{$container-max-width};
 
-  width: min(100% - var(--padding), var(--max-width));
+  width: min(100vw, var(--max-width));
   margin-inline: auto;
+
+  main & {
+    padding: $container-min-margin-inline;
+    @include mq(small) {
+      padding-inline: $size-8;
+      border-radius: 0 0 $border-radius-2 $border-radius-2;
+    }
+  }
+
+  header & {
+    @include mq(small) {
+      padding-inline: clamp(
+        0rem,
+        -2.5685rem + 10.9589vw,
+        $container-min-margin-inline
+      );
+      padding-block-start: clamp(
+        0rem,
+        -2.5685rem + 10.9589vw,
+        $container-min-margin-inline
+      );
+      border-radius: $border-radius-2 $border-radius-2 0 0;
+    }
+    & > img {
+      @include mq(small) {
+        border-radius: $border-radius-1;
+      }
+    }
+  }
 
   &[data-type="narrow"] {
     --max-width: #{$container-max-width-narrow};
