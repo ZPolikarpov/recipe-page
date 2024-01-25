@@ -6,6 +6,12 @@
     padding-block: $size-1;
     padding-inline-start: $size-4;
 
+    //centers the bulletpoints
+    & div {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
     &::marker {
       color: $color-primary-500;
       font-weight: $font-weight-bold;

@@ -19,13 +19,19 @@ function App() {
 						<h3 className="heading-3">Preparation time</h3>
 						<ul className="list">
 							<li>
-								<strong>Total:</strong> Approximately 10 minutes
+								<div>
+									<strong>Total:</strong> Approximately 10 minutes
+								</div>
 							</li>
 							<li>
-								<strong>Preparation:</strong> 5 minutes
+								<div>
+									<strong>Preparation:</strong> 5 minutes
+								</div>
 							</li>
 							<li>
-								<strong>Cooking:</strong> 5 minutes
+								<div>
+									<strong>Cooking:</strong> 5 minutes
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -33,11 +39,31 @@ function App() {
 					<div className="flow">
 						<h2 className="heading-2">Ingredients</h2>
 						<ul className="list">
-							<li>2-3 large eggs</li>
-							<li>Salt, to taste</li>
-							<li>Pepper, to taste</li>
-							<li>1 tablespoon of butter or oil</li>
-							<li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+							<li>
+								<div>
+									2-3 large eggs
+								</div>
+							</li>
+							<li>
+								<div>
+									Salt, to taste
+								</div>
+							</li>
+							<li>
+								<div>
+									Pepper, to taste
+								</div>
+							</li>
+							<li>
+								<div>
+									1 tablespoon of butter or oil
+								</div>
+							</li>
+							<li>
+								<div>
+									Optional fillings: cheese, diced vegetables, cooked meats, herbs
+								</div>
+							</li>
 						</ul>
 					</div>
 
@@ -56,9 +82,24 @@ function App() {
 					<div className="flow decoration" data-decoration="top">
 						<h2 className="heading-2">Nutrition</h2>
 						<p>The table below shows nutritional values per serving without the additional fillings.</p>
-						<div>
-
-						</div>
+						<table className="table__nutrients">
+							<tr>
+								<td>Calories</td>
+								<td><strong>277kcal</strong></td>
+							</tr>
+							<tr>
+								<td>Carbs</td>
+								<td><strong>0g</strong></td>
+							</tr>
+							<tr>
+								<td>Protein</td>
+								<td><strong>20g</strong></td>
+							</tr>
+							<tr>
+								<td>Fat</td>
+								<td><strong>22g</strong></td>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</main>

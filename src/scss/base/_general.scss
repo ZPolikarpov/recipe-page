@@ -7,6 +7,9 @@ body {
   color: $body-text-color;
   background-color: $body-background-color;
   line-height: $body-line-height;
+  @include mq(small) {
+    padding-block: clamp(0rem, -2.817rem + 12.019vw, $size-13);
+  }
 }
 
 strong {
