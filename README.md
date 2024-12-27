@@ -6,7 +6,7 @@ This repository contains my solution for a Frontend Mentor challenge. The challe
 
 ## Links
 
-Solution URL: [Solution - Frontend Mentor](https://www.fronSolution URL: [Solution - Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-scss-UbI1QWj-Nr)\
+Solution URL: [Solution - Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-scss-UbI1QWj-Nr)\
 Live Site URL: [Live Site](https://zpolikarpov.github.io/recipe-page/)
 
 ## Built With
